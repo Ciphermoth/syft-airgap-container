@@ -17,4 +17,4 @@ This container is published on Docker Hub for easy access:
 
 ```bash
 docker pull moth12/syft-container
-
+https://hub.docker.com/r/moth12/syft-container
