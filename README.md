@@ -9,3 +9,12 @@ You can download the latest release from the official GitHub page:
 To build the container or run the scan script, you’ll need the Syft binary.
 
 👉 [Syft Releases](https://github.com/anchore/syft/releases)
+
+## 🐳 Docker Hub
+
+
+This container is published on Docker Hub for easy access:
+
+```bash
+docker pull moth12/syft-container
+
