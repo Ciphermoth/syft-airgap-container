@@ -4,7 +4,7 @@
 OUTPUT_DIR="output"
 mkdir -p "$OUTPUT_DIR"
 
-echo "🔍 Listing Docker images..."
+echo "Listing Docker images..."
 IMAGES=$(docker images --format "{{.Repository}}:{{.Tag}}" | sort | uniq)
 
 for IMAGE in $IMAGES; do
