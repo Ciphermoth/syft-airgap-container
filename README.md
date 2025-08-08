@@ -48,3 +48,19 @@ Filter by package type
 
 jq '.artifacts[] | select(.type=="apk") | {name, version}' sbom.json
 
+Advanced Scanning Targets
+
+Syft supports scanning more than just container images. You can point it at directories, archives, Git repos, and even running containers.
+
+
+
+📁 Scan a System Directory
+
+Generate an SBOM for part of your host system by mounting a directory:
+
+docker run --rm -v /usr:/scan moth12/syft-container:latest dir:/scan
+docker run --rm -v /etc:/scan moth12/syft-container:latest dir:/scan
+docker run --rm -v /opt:/scan moth12/syft-container:latest dir:/scan
+docker run --rm -v /lib:/scan moth12/syft-container:latest dir:/scan
+
+
