@@ -14,8 +14,8 @@ To build the container or run the scan script, you’ll need the Syft binary.
 ## 🐳 Docker Hub
 
 This container is published on Docker Hub for easy access:
-docker pull moth12/syft-container
-https://hub.docker.com/r/moth12/syft-container
+[![Docker Hub](https://img.shields.io/badge/Docker%20Hub-moth12%2Fsyft--container-blue?logo=docker)](https://hub.docker.com/r/moth12/syft-container)
+
 ##
 Syft Container SBOM Scanner
 
